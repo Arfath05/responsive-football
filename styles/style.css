@@ -37,6 +37,10 @@ body{
     line-height: 24px;
     color: #FFFFFF;
 }
+.half-width a:hover{
+    background-color: green;
+    border-radius: 10px;
+}
 .half-width img{
     width: 556.01px;
     height: 438px;
