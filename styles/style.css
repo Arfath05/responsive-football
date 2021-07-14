@@ -16,7 +16,9 @@ main{
 .top-banner{
     
     height: 677px;
-    background: #2D25A0;   
+    background: #2D25A0;
+    /*display: grid;
+    grid-template-columns: repeat(2, 1fr);*/
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -50,21 +52,26 @@ main{
 
 /*----Player's styles*/
 .players-profile{
-  
-   margin: 0 auto;
-   width: 80%;
-   display: grid;
-   grid-template-columns: repeat(3, 1fr);      
+    width: 80%;
+    margin: 0 auto;
 }
+.all-player{
+    
+    display: grid;
+   grid-template-columns: repeat(3, 1fr); 
+  
 
+}
 .container{     
     overflow: hidden;  
+    /*margin: 70px 0 27px 0; */
+    margin-bottom: 27px;
     margin-top: 70px;
-    margin-bottom: 20px;
     width: 330px;
     height: 490px;
     background: #FFFFFF;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+
 }
 .player-name{
     margin-left: 15px;
