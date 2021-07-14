@@ -52,13 +52,15 @@ main{
 
 /*----Player's styles*/
 .players-profile{
-   /*width: 1440px;*/
+   /*width: 1440px;
    display: flex;
    align-items: center;
-   justify-content: space-evenly;
-    
+   justify-content: space-evenly;*/
+   display: grid;
+   grid-template-columns: repeat(3, 1fr); 
+     
 }
-.container{ 
+.container{     
     overflow: hidden;  
     margin: 70px 0 27px 0; 
     width: 330px;
