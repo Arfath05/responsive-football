@@ -9,6 +9,9 @@ body{
 main{
     /*display: flex;
     justify-content: center;*/
+    width: 1440px;
+    height: 3750px;
+    background: #FFFFFF;
 }
 
 /*top banner styles*/
@@ -83,4 +86,28 @@ main{
     width: 300px;
     height: 256px;
 }
+/*--- Footer styles---*/
+footer{
+    display: grid;
+   grid-template-columns: repeat(1, 1fr); 
+    
+}
+.footer-logo img{
 
+        width: 483.87px;
+        height: 110px;
+    
+}
+.social-links{
+    width: 170px;
+    height: 32px;
+}
+.social-links a{
+    text-decoration: none;
+}
+.social-links a .filled{
+    color:gray;
+}
+.footer-text{
+    text-align: center;
+}
