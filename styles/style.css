@@ -76,10 +76,24 @@ main{
 .player-name{
     margin-left: 15px;
 }
-.player-detail{
-    padding: 5px;
+.player-info h2{
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 40px;
+    color: #18191F;
+
 }
-.player-detail, .player-img{
+.player-detail{
+    text-align: justify;
+    padding:5px 5px 5px  10px;
+    font-family: Poppins;    
+    font-size: 16px;
+    line-height: 26px;
+    color: #6C6C6C;
+
+}
+
+ .player-img{
     text-align: center;
 }
 .container .player-img img{
