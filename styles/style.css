@@ -16,9 +16,7 @@ main{
 .top-banner{
     
     height: 677px;
-    background: #2D25A0;
-    /*display: grid;
-    grid-template-columns: repeat(2, 1fr);*/
+    background: #2D25A0;   
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -56,11 +54,8 @@ main{
     margin: 0 auto;
 }
 .all-player{
-    
-    display: grid;
-   grid-template-columns: repeat(3, 1fr); 
-  
-
+        display: grid;
+   grid-template-columns: repeat(3, 1fr);
 }
 .container{     
     overflow: hidden;  
@@ -81,7 +76,6 @@ main{
     font-size: 28px;
     line-height: 40px;
     color: #18191F;
-
 }
 .player-detail{
     text-align: justify;
@@ -90,7 +84,6 @@ main{
     font-size: 16px;
     line-height: 26px;
     color: #6C6C6C;
-
 }
 
  .player-img{
@@ -103,11 +96,20 @@ main{
 }
 /*--- Footer styles---*/
 
+footer{
+    width: 100%;
+}
+footer .main{
+    
+   /* margin: 0 auto;*/
+}
 .footer-logo img{
+        margin-left: 425px;
         width: 483.87px;
         height: 110px;    
 }
 .social-links{
+    margin: 0 auto;
     width: 170px;
     height: 32px;
 }
@@ -120,4 +122,58 @@ main{
 }
 .footer-text{
     text-align: center;
+}
+/*-------
+Media Quaries
+-----------*/
+
+/*Mobile Devices*/
+
+@media only screen and (max-width: 688px) {
+ .top-banner{
+   
+    flex-direction: column;
+    width:100%; 
+      
+ }  
+ .half-width{
+    width: 100%;    
+ }
+ .half-width h1{      
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 50px;
+ }
+ .half-width a{
+    padding: 10px 24px;    
+    width: 168px;
+    height: 44px;
+ }
+ .half-width img{
+    width: 329px;
+    height: 259.17px;
+ }
+ .all-player{    
+   grid-template-columns: repeat(1, 1fr);
+}
+footer{
+    width: 100%;
+}
+.footer-logo img{
+    margin-left: 180px;
+    width: 265px;
+    height: 63px;    
+}
+.social-links{
+    width:100%;
+     
+}
+
+    
+}
+/*Tablet Devices*/
+
+@media only screen and (min-width:689px) and (max-width:992px) {
+
+   
 }
