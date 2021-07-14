@@ -16,9 +16,7 @@ main{
 .top-banner{
     
     height: 677px;
-    background: #2D25A0;
-    /*display: grid;
-    grid-template-columns: repeat(2, 1fr);*/
+    background: #2D25A0;   
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -52,22 +50,21 @@ main{
 
 /*----Player's styles*/
 .players-profile{
-   /*width: 1440px;
-   display: flex;
-   align-items: center;
-   justify-content: space-evenly;*/
+  
+   margin: 0 auto;
+   width: 80%;
    display: grid;
-   grid-template-columns: repeat(3, 1fr); 
-     
+   grid-template-columns: repeat(3, 1fr);      
 }
+
 .container{     
     overflow: hidden;  
-    margin: 70px 0 27px 0; 
+    margin-top: 70px;
+    margin-bottom: 20px;
     width: 330px;
     height: 490px;
     background: #FFFFFF;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
-
 }
 .player-name{
     margin-left: 15px;
@@ -84,16 +81,10 @@ main{
     height: 256px;
 }
 /*--- Footer styles---*/
-footer{
-  /*  display: grid;
-   grid-template-columns: repeat(1, 1fr); */
-    
-}
-.footer-logo img{
 
+.footer-logo img{
         width: 483.87px;
-        height: 110px;
-    
+        height: 110px;    
 }
 .social-links{
     width: 170px;
@@ -101,6 +92,7 @@ footer{
 }
 .social-links a{
     text-decoration: none;
+    margin-right: 5px;
 }
 .social-links a .filled{
     color:gray;
