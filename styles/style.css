@@ -85,8 +85,8 @@ main{
 }
 /*--- Footer styles---*/
 footer{
-    display: grid;
-   grid-template-columns: repeat(1, 1fr); 
+  /*  display: grid;
+   grid-template-columns: repeat(1, 1fr); */
     
 }
 .footer-logo img{
